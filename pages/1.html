@@ -1,283 +1,284 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=divice-width, initial-scale=1.0">
-        <title>فهرست</title>
-        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    </head>
 
-    <body>
-        <div class="container">
-            <h2>HTML Tables</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <title>فهرست</title>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
 
-            <hr>
-            <h2>1 Row and 3 Columns:</h2>
-            <table>
+<body>
+    <div class="container">
+        <h2>HTML Tables</h2>
+
+        <hr>
+        <h2>1 Row and 3 Columns:</h2>
+        <table>
             <tr>
                 <td>10fghjklgfdfghjkl;0</td>
                 <td>200</td>
                 <td>300</td>
             </tr>
-            </table>
-
+        </table>
+        <p>
             %==========================================================================
-%Template File for Evolutionary Computation Symposium
-%==========================================================================
-\documentclass[a4paper,11pt,twocolumn]{jarticle}
-\usepackage[dvipdfmx]{graphicx}
-\usepackage{evocomp}
-\usepackage{fancyhdr}
-\pagestyle{empty}
+            %Template File for Evolutionary Computation Symposium
+            %==========================================================================
+            \documentclass[a4paper,11pt,twocolumn]{jarticle}
+            \usepackage[dvipdfmx]{graphicx}
+            \usepackage{evocomp}
+            \usepackage{fancyhdr}
+            \pagestyle{empty}
 
-\renewcommand{\headrulewidth}{0.0pt}
-\renewcommand{\footrulewidth}{0.0pt}
+            \renewcommand{\headrulewidth}{0.0pt}
+            \renewcommand{\footrulewidth}{0.0pt}
 
-\begin{document}
-\twocolumn[%
-\begin{center}
+            \begin{document}
+            \twocolumn[%
+            \begin{center}
 
-%---------------------------------------------------------------------------
-% ヘッダ   
-%---------------------------------------------------------------------------
-\beginheader
-
-
-%---------------------------------------------------------------------------
-% 発表題目    書式：\title{日本語タイトル}{日本語サブタイトル} 「\\」で改行できます
-%---------------------------------------------------------------------------
-\jtitle%
-{タイトル}
-%%%
-%もしサブタイトルが必要な場合には，
-%\2jtitle%
-%{タイトル}{サブタイトル}
-%を使用
-%%%
-
-%---------------------------------------------------------------------------
-% 著者名      書式：\author{日本語著者名}{英語著者名}
-%---------------------------------------------------------------------------
-
-\begin{authors}
-%%%%
-%\name{所属番号(下記の\affに対応)}{著者名を記入},
-%%%%
-\name{1}{名前１},
-\name{2}{名前２},
-\name{2}{名前３},
-\name{3}{名前４}
-%%%%
-\end{authors}
+            %---------------------------------------------------------------------------
+            % ヘッダ
+            %---------------------------------------------------------------------------
+            \beginheader
 
 
+            %---------------------------------------------------------------------------
+            % 発表題目 書式：\title{日本語タイトル}{日本語サブタイトル} 「\\」で改行できます
+            %---------------------------------------------------------------------------
+            \jtitle%
+            {タイトル}
+            %%%
+            %もしサブタイトルが必要な場合には，
+            %\2jtitle%
+            %{タイトル}{サブタイトル}
+            %を使用
+            %%%
 
-\begin{affiliation}
-\aff{1}{○○大学工学部},
-\aff{2}{○○大学大学院},
-\aff{3}{○○研究所}
-\end{affiliation}
+            %---------------------------------------------------------------------------
+            % 著者名 書式：\author{日本語著者名}{英語著者名}
+            %---------------------------------------------------------------------------
 
-%---------------------------------------------------------------------------
-
-
-\endheader
-%--------------------------------------------------------------
-\end{center}
-]%
-
-%--------------------------------------------------------------
-% 英文タイトル
-%--------------------------------------------------------------
-
-\etitle{Title of Paper}
-
-%--------------------------------------------------------------
-% 英語語著者名
-%--------------------------------------------------------------
-% ename{1}{***} : 所属１の氏名
-% ename{2}{***} : 所属２の氏名　のようにする．
-
-\ename{1}{English Name1(XXX@xxx.xxx.ac.jp)}
-\ename{2}{English Name2(XXX@xxx.xxx.ac.jp)}
-\ename{2}{English Name3(XXX@xxx.xxx.ac.jp)}
-\ename{3}{English Name4(XXX@xxx.xxx.ac.jp)}
-
-
-%--------------------------------------------------------------
-% 英語所属
-%--------------------------------------------------------------
-% eaff{1}{***} : 所属１
-% eaff{2}{***} : 所属２　のようにする．所属の引数は４まで.
-% ※日本語の所属と対応させること．
-
-
-\eaff{1}{%
-Department of ○○, %
-×× University%
-}
-
-\eaff{2}{%
-Graduated School of ○○, %
-×× University%
-}
-
-\eaff{3}{%
-National Institute of ○○, %
-×× Research Center%
-}
-
-
-\vspace{3mm}
-
-\kanjiskip=.1zw plus 3pt minus 3pt
-\xkanjiskip=.1zw plus 3pt minus 3pt
-%---------------------------------------------------------------------------
-% 本文
-%---------------------------------------------------------------------------
-
-\section{はじめに}
-本プレートは，進化計算研究会シンポジウム用に用意された\TeX サンプルファイルです．
-
-\section{図表に関して}
+            \begin{authors}
+            %%%%
+            %\name{所属番号(下記の\affに対応)}{著者名を記入},
+            %%%%
+            \name{1}{名前１},
+            \name{2}{名前２},
+            \name{2}{名前３},
+            \name{3}{名前４}
+            %%%%
+            \end{authors}
 
 
 
-\subsection{図について}
+            \begin{affiliation}
+            \aff{1}{○○大学工学部},
+            \aff{2}{○○大学大学院},
+            \aff{3}{○○研究所}
+            \end{affiliation}
 
-図を出力するためには，下記のような書式で記述してください．
-
-\begin{screen}
-\begin{verbatim}
-\begin{figure}[htbp]
-\begin{center}
-\includegraphics[width=0.7\linewidth]
-{figs/graphic_data.pdf}
-\end{center}
-\caption{図形}
-\label{fig::graphic}
-\end{figure}
-\end{verbatim}
-\end{screen}
-
-\begin{figure}[htbp]
-\begin{center}
-\includegraphics[width=0.7\linewidth]{figs/graphic_data.pdf}
-\end{center}
-\caption{図形}
-\label{fig::graphic}
-\end{figure}
-
-\subsection{表について}
-
-表を出力するためには，下記のような書式で記述してください．
-
-\begin{screen}
-\begin{verbatim}
-\begin{table}[tbp]
-\begin{center}
-\caption{Problem Instance.}
-\label{tb::example}
-\begin{tabular}{ccccc}
-\hline 
-Problem & $N$ & $W$ & $\bar{w}$ 
-& $\sigma (w)$\\
-\hline \hline
-tai75a & 75 & 1445 & 183.4 & 242.9\\
-tai75b & 75 & 1679 & 198.7 &  273.4\\
-tai100a & 100 & 1409 & 152.0 &  201.5\\
-tai150a & 150 & 1544 & 145.54 & 200.7\\
-\hline
-\end{tabular}
-\end{center}
-\end{table}
-\end{verbatim}
-\end{screen}
-
-\begin{table}[tbp]
-\begin{center}
-\caption{Problem Instance.}
-\label{tb::example}
-\begin{tabular}{c|cccc}
-\hline 
-Problem & $N$ & $W$ & $\bar{w}$ & $\sigma (w)$\\
-\hline \hline
-tai75a & 75 & 1445 & 183.4 & 242.9\\
-tai75b & 75 & 1679 & 198.7 &  273.4\\
-tai100a & 100 & 1409 & 152.0 &  201.5\\
-tai150a & 150 & 1544 & 145.54 & 200.7\\
-\hline
-\end{tabular}
-\end{center}
-\end{table}
+            %---------------------------------------------------------------------------
 
 
-\section{式について}
+            \endheader
+            %--------------------------------------------------------------
+            \end{center}
+            ]%
 
-式の書き方には幾つかの種類がありますが，以下，幾つかの例について示します．
-\begin{enumerate}
-\item 文中で式を入れ込む場合\\
- \verb|$数式$|という書き方をします．例えば，\verb|$\cfrac{b_{2}}{a^2}\le 0$|と記述すると，「$\cfrac{b_{2}}{a^2}\le 0$」のように出力されます．
-\item 数式を番号なしで1行挿入する場合\\
- \verb| \[ \] |と記述します．\\
-例えば，
-\verb| \[ \cfrac{b_{2}}{a^2}\le 0 \]|と記述すると，下記のように出力されます．
-\[ \cfrac{b_{2}}{a^2}\le 0 \]
-\item 数式を番号つきで1行挿入する場合\\
-\verb| \begin{equation}| \verb| 式 \end{equation}|と記述します．\\
-例えば，\verb| \begin{equation} \cfrac{b_{2}}| \verb|{a^2}\le 0 \end{equation}|と記述すると，下記のように出力されます．
-\begin{equation} \cfrac{b_{2}}{a^2}\le 0 \end{equation}
-\end{enumerate}
+            %--------------------------------------------------------------
+            % 英文タイトル
+            %--------------------------------------------------------------
 
-なお，番号付きの式には図，表と同様にラベル付けおよびその参照を行うことができます．一例を以下に示します．
+            \etitle{Title of Paper}
 
-\begin{screen}
-\begin{verbatim}
-\begin{eqnarray} 
-\cfrac{b_{2}}{a^2}\le 0  
-         \label{eq::const-1} \\
-a\times b \ge 10  \label{eq::const-2} 
-\end{eqnarray}
-\end{verbatim}
-\end{screen}
+            %--------------------------------------------------------------
+            % 英語語著者名
+            %--------------------------------------------------------------
+            % ename{1}{***} : 所属１の氏名
+            % ename{2}{***} : 所属２の氏名　のようにする．
+
+            \ename{1}{English Name1(XXX@xxx.xxx.ac.jp)}
+            \ename{2}{English Name2(XXX@xxx.xxx.ac.jp)}
+            \ename{2}{English Name3(XXX@xxx.xxx.ac.jp)}
+            \ename{3}{English Name4(XXX@xxx.xxx.ac.jp)}
 
 
-\begin{eqnarray} 
-\cfrac{b_{2}}{a^2}\le 0  \label{eq::const-1} \\
-a\times b \ge 10  \label{eq::const-2} 
-\end{eqnarray}
-
-式を参照するときには，\verb|\eqref{式ラベル}|と記述します．上記の例では\verb|\eqref{eq::const-1}|と記述することにより「\eqref{eq::const-1}」が出力されています．
-
-ちなみに図，表，式だけでなく章(section),節(subsection)など様々な箇所でラベル付けおよびその参照を行うことができます．その場合には，\verb|\ref{ラベル}|と記述することによってラベル付けされた場所の番号を呼び出すことができます．
+            %--------------------------------------------------------------
+            % 英語所属
+            %--------------------------------------------------------------
+            % eaff{1}{***} : 所属１
+            % eaff{2}{***} : 所属２　のようにする．所属の引数は４まで.
+            % ※日本語の所属と対応させること．
 
 
-\section{参考文献の引用について}
+            \eaff{1}{%
+            Department of ○○, %
+            ×× University%
+            }
 
-例えば引用したい文献の情報をreference.bibに記述し, このように~\cite{DebAPM02,Koza93} すれば参考文献を引用できます.
-BibTeXではなくthebibliography環境を使う場合は次の記述のコメントを解除してください.
+            \eaff{2}{%
+            Graduated School of ○○, %
+            ×× University%
+            }
 
-%------------
-%以下，参考文献に関する記述
-%------------
-% \begin{thebibliography}{9}
-% \small{
-% \bibitem{okumura} 奥村 「LATEX2ε 美文書作成入門」技術評論社, 2000年
-% \bibitem{tex-wiki} TeX Wiki \newblock \url{http://cise.edu.mie-u.ac.jp/%7eokumura/texwiki/}
-% \bibitem{otobe} 乙部厳己・江口庄英 「pLaTeX2e for Windows Another Manual Vol.1 Basic Kit 1999」 ソフトバンクパブリッシング， 1999年
-% }
-% \end{thebibliography}
+            \eaff{3}{%
+            National Institute of ○○, %
+            ×× Research Center%
+            }
 
-% thebibliographyを使う場合は次の2行をコメントアウトしてください.
-\bibliographystyle{plain}
-\bibliography{reference}
 
-%------------------------------------------------------------------------------
-\end{document}
+            \vspace{3mm}
 
-            <hr>
-            <h2>3 Rows and 3 Columns:</h2>
-            <table>
+            \kanjiskip=.1zw plus 3pt minus 3pt
+            \xkanjiskip=.1zw plus 3pt minus 3pt
+            %---------------------------------------------------------------------------
+            % 本文
+            %---------------------------------------------------------------------------
+
+            \section{はじめに}
+            本プレートは，進化計算研究会シンポジウム用に用意された\TeX サンプルファイルです．
+
+            \section{図表に関して}
+
+
+
+            \subsection{図について}
+
+            図を出力するためには，下記のような書式で記述してください．
+
+            \begin{screen}
+            \begin{verbatim}
+            \begin{figure}[htbp]
+            \begin{center}
+            \includegraphics[width=0.7\linewidth]
+            {figs/graphic_data.pdf}
+            \end{center}
+            \caption{図形}
+            \label{fig::graphic}
+            \end{figure}
+            \end{verbatim}
+            \end{screen}
+
+            \begin{figure}[htbp]
+            \begin{center}
+            \includegraphics[width=0.7\linewidth]{figs/graphic_data.pdf}
+            \end{center}
+            \caption{図形}
+            \label{fig::graphic}
+            \end{figure}
+
+            \subsection{表について}
+
+            表を出力するためには，下記のような書式で記述してください．
+
+            \begin{screen}
+            \begin{verbatim}
+            \begin{table}[tbp]
+            \begin{center}
+            \caption{Problem Instance.}
+            \label{tb::example}
+            \begin{tabular}{ccccc}
+            \hline
+            Problem & $N$ & $W$ & $\bar{w}$
+            & $\sigma (w)$\\
+            \hline \hline
+            tai75a & 75 & 1445 & 183.4 & 242.9\\
+            tai75b & 75 & 1679 & 198.7 & 273.4\\
+            tai100a & 100 & 1409 & 152.0 & 201.5\\
+            tai150a & 150 & 1544 & 145.54 & 200.7\\
+            \hline
+            \end{tabular}
+            \end{center}
+            \end{table}
+            \end{verbatim}
+            \end{screen}
+
+            \begin{table}[tbp]
+            \begin{center}
+            \caption{Problem Instance.}
+            \label{tb::example}
+            \begin{tabular}{c|cccc}
+            \hline
+            Problem & $N$ & $W$ & $\bar{w}$ & $\sigma (w)$\\
+            \hline \hline
+            tai75a & 75 & 1445 & 183.4 & 242.9\\
+            tai75b & 75 & 1679 & 198.7 & 273.4\\
+            tai100a & 100 & 1409 & 152.0 & 201.5\\
+            tai150a & 150 & 1544 & 145.54 & 200.7\\
+            \hline
+            \end{tabular}
+            \end{center}
+            \end{table}
+
+
+            \section{式について}
+
+            式の書き方には幾つかの種類がありますが，以下，幾つかの例について示します．
+            \begin{enumerate}
+            \item 文中で式を入れ込む場合\\
+            \verb|$数式$|という書き方をします．例えば，\verb|$\cfrac{b_{2}}{a^2}\le 0$|と記述すると，「$\cfrac{b_{2}}{a^2}\le 0$」のように出力されます．
+            \item 数式を番号なしで1行挿入する場合\\
+            \verb| \[ \] |と記述します．\\
+            例えば，
+            \verb| \[ \cfrac{b_{2}}{a^2}\le 0 \]|と記述すると，下記のように出力されます．
+            \[ \cfrac{b_{2}}{a^2}\le 0 \]
+            \item 数式を番号つきで1行挿入する場合\\
+            \verb| \begin{equation}| \verb| 式 \end{equation}|と記述します．\\
+            例えば，\verb| \begin{equation} \cfrac{b_{2}}| \verb|{a^2}\le 0 \end{equation}|と記述すると，下記のように出力されます．
+            \begin{equation} \cfrac{b_{2}}{a^2}\le 0 \end{equation}
+            \end{enumerate}
+
+            なお，番号付きの式には図，表と同様にラベル付けおよびその参照を行うことができます．一例を以下に示します．
+
+            \begin{screen}
+            \begin{verbatim}
+            \begin{eqnarray}
+            \cfrac{b_{2}}{a^2}\le 0
+            \label{eq::const-1} \\
+            a\times b \ge 10 \label{eq::const-2}
+            \end{eqnarray}
+            \end{verbatim}
+            \end{screen}
+
+
+            \begin{eqnarray}
+            \cfrac{b_{2}}{a^2}\le 0 \label{eq::const-1} \\
+            a\times b \ge 10 \label{eq::const-2}
+            \end{eqnarray}
+
+            式を参照するときには，\verb|\eqref{式ラベル}|と記述します．上記の例では\verb|\eqref{eq::const-1}|と記述することにより「\eqref{eq::const-1}」が出力されています．
+
+            ちなみに図，表，式だけでなく章(section),節(subsection)など様々な箇所でラベル付けおよびその参照を行うことができます．その場合には，\verb|\ref{ラベル}|と記述することによってラベル付けされた場所の番号を呼び出すことができます．
+
+
+            \section{参考文献の引用について}
+
+            例えば引用したい文献の情報をreference.bibに記述し, このように~\cite{DebAPM02,Koza93} すれば参考文献を引用できます.
+            BibTeXではなくthebibliography環境を使う場合は次の記述のコメントを解除してください.
+
+            %------------
+            %以下，参考文献に関する記述
+            %------------
+            % \begin{thebibliography}{9}
+            % \small{
+            % \bibitem{okumura} 奥村 「LATEX2ε 美文書作成入門」技術評論社, 2000年
+            % \bibitem{tex-wiki} TeX Wiki \newblock \url{http://cise.edu.mie-u.ac.jp/%7eokumura/texwiki/}
+            % \bibitem{otobe} 乙部厳己・江口庄英 「pLaTeX2e for Windows Another Manual Vol.1 Basic Kit 1999」 ソフトバンクパブリッシング， 1999年
+            % }
+            % \end{thebibliography}
+
+            % thebibliographyを使う場合は次の2行をコメントアウトしてください.
+            \bibliographystyle{plain}
+            \bibliography{reference}
+
+            %------------------------------------------------------------------------------
+            \end{document}
+        </p>
+        <hr>
+        <h2>3 Rows and 3 Columns:</h2>
+        <table>
             <tr>
                 <td>100</td>
                 <td>200</td>
@@ -293,9 +294,10 @@ BibTeXではなくthebibliography環境を使う場合は次の記述のコメ�
                 <td>800</td>
                 <td>900</td>
             </tr>
-            </table>
+        </table>
 
-            <hr>
+        <hr>
         <div>
-    </body>
+</body>
+
 </html>
