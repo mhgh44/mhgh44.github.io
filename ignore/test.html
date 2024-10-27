@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه اصلی</title>
+    <script>
+        function loadContent() {
+            fetch('https://mhgh44.github.io/pages/1.html') // یا 'file.html'
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('content').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading content:', error));
+        }
+    </script>
+</head>
+<body onload="loadContent()">
+    <h1>خوش آمدید</h1>
+    <div id="content"></div>
+</body>
+</html>
