@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'LIGHT';
+    font-family: 'PINAR';
     /* نام دلخواه برای فونت */
     src: url('fonts/fonts/PINAR-DS1-FD-LIGHT.TTF') format('truetype');
     /* مسیر فایل فونت */
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: 'MEDIUM';
+    font-family: 'PINAR';
     /* نام دلخواه برای فونت */
     src: url('fonts/PINAR-DS1-FD-MEDIUM.TTF') format('truetype');
     /* مسیر فایل فونت */
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-    font-family: 'SEMIBOLD';
+    font-family: 'PINAR';
     /* نام دلخواه برای فونت */
     src: url('fonts/PINAR-DS1-FD-SEMIBOLD.TTF') format('truetype');
     /* مسیر فایل فونت */
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'BOLD';
+    font-family: 'PINAR';
     /* نام دلخواه برای فونت */
     src: url('fonts/PINAR-DS1-FD-BOLD.TTF') format('truetype');
     /* مسیر فایل فونت */
@@ -31,7 +31,7 @@
 }
 
 @font-face {
-    font-family: 'EXTRABOLD';
+    font-family: 'PINAR';
     /* نام دلخواه برای فونت */
     src: url('fonts/PINAR-DS1-FD-EXTRABOLD.TTF') format('truetype');
     /* مسیر فایل فونت */
@@ -39,7 +39,7 @@
 }
 
 @font-face {
-    font-family: 'BLACK';
+    font-family: 'PINAR';
     /* نام دلخواه برای فونت */
     src: url('fonts/PINAR-DS1-FD-BLACK.TTF') format('truetype');
     /* مسیر فایل فونت */
@@ -47,10 +47,11 @@
 }
 
 body {
-    font-family: 'MEDIUM', ;
+    font-family: 'PINAR';
     /* استفاده از فونت سفارشی */
     margin: 20px;
     background-color: #f4f4f4;
+    font-weight: 400
 }
 
 h1 {
@@ -59,7 +60,6 @@ h1 {
 }
 
 p {
-    font-weight: 400;
     white-space: pre-wrap;
     /* به شما اجازه می‌دهد که متن را به صورت چند خطی نمایش دهید */
     word-wrap: break-word;
@@ -67,6 +67,6 @@ p {
     background-color: #f8f8f8;
     padding: 10px;
     border-radius: 3px;
-    overflow: auto;
+    /* overflow: auto; */
     /* در صورت نیاز اسکرول ایجاد می‌کند */
 }
