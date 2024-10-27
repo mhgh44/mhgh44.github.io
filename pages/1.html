@@ -11,16 +11,15 @@
 <body>
     <h2>HTML Tables</h2>
     <div class="container">
-        <p id="content"></p>
+        <p id="content">
+            معادله 
+
+            درجه دوم
+            
+            
+             به صورت زیر است: \[ ax^2 + bx + c = 0 \] که راه‌حل‌های آن به صورت زیر است: \[ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]
+                    </p>
     </div>
-    <script async>
-        fetch('../texts/1.txt')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('content').innerHTML = data;
-            })
-            .catch(error => console.error('خطا در بارگذاری فایل:', error));
-    </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </body>
 <html>
