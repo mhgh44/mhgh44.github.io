@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'PINAR';
     /* نام دلخواه برای فونت */
-    src: url('fonts/fonts/PINAR-DS1-FD-LIGHT.TTF') format('truetype');
+    src: url('fonts/fonts/Pinar-DS1-Light.woff2') format('woff2');
     /* مسیر فایل فونت */
     font-weight: 300
 }
@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'PINAR';
     /* نام دلخواه برای فونت */
-    src: url('fonts/PINAR-DS1-FD-MEDIUM.TTF') format('truetype');
+    src: url('fonts/Pinar-DS1-Medium.woff2') format('woff2');
     /* مسیر فایل فونت */
     font-weight: 400
 }
@@ -17,7 +17,7 @@
 @font-face {
     font-family: 'PINAR';
     /* نام دلخواه برای فونت */
-    src: url('fonts/PINAR-DS1-FD-SEMIBOLD.TTF') format('truetype');
+    src: url('fonts/Pinar-DS1-Regular.woff2') format('woff2');
     /* مسیر فایل فونت */
     font-weight: 500
 }
@@ -25,7 +25,7 @@
 @font-face {
     font-family: 'PINAR';
     /* نام دلخواه برای فونت */
-    src: url('fonts/PINAR-DS1-FD-BOLD.TTF') format('truetype');
+    src: url('fonts/Pinar-DS1-SemiBold.woff2') format('woff2');
     /* مسیر فایل فونت */
     font-weight: 600
 }
@@ -33,7 +33,7 @@
 @font-face {
     font-family: 'PINAR';
     /* نام دلخواه برای فونت */
-    src: url('fonts/PINAR-DS1-FD-EXTRABOLD.TTF') format('truetype');
+    src: url('fonts/Pinar-DS1-Bold.woff2') format('woff2');
     /* مسیر فایل فونت */
     font-weight: 700
 }
@@ -41,9 +41,17 @@
 @font-face {
     font-family: 'PINAR';
     /* نام دلخواه برای فونت */
-    src: url('fonts/PINAR-DS1-FD-BLACK.TTF') format('truetype');
+    src: url('Pinar-DS1-ExtraBold.woff2') format('woff2');
     /* مسیر فایل فونت */
     font-weight: 800
+}
+
+@font-face {
+    font-family: 'PINAR';
+    /* نام دلخواه برای فونت */
+    src: url('fonts/Pinar-DS1-Black.woff2') format('woff2');
+    /* مسیر فایل فونت */
+    font-weight: 900
 }
 
 body {
@@ -51,7 +59,7 @@ body {
     /* استفاده از فونت سفارشی */
     margin: 20px;
     background-color: #f4f4f4;
-    font-weight: 400
+    font-weight: 500
 }
 
 h1 {
