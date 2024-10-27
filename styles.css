@@ -55,11 +55,12 @@
 }
 
 body {
+    background-color: #12172a;
     font-family: 'PINAR';
     /* استفاده از فونت سفارشی */
     margin: 20px;
-    background-color: #f4f4f4;
-    font-weight: 500
+    font-weight: 500;
+    color:azure;
 }
 
 h1 {
@@ -67,14 +68,27 @@ h1 {
     /* استفاده از وزن بولد برای عنوان */
 }
 
-p {
+h2 {
+    color: rgb(255, 213, 0);
+    font-weight: 700;
+    /* استفاده از وزن بولد برای عنوان */
+}
+
+h3 {
+    color: rgb(255, 97, 18);
+    font-weight: 700;
+    /* استفاده از وزن بولد برای عنوان */
+}
+
+.container {
+    background-color: #00030e;
+
     white-space: pre-wrap;
     /* به شما اجازه می‌دهد که متن را به صورت چند خطی نمایش دهید */
     word-wrap: break-word;
     /* کلمات را در صورت نیاز به خط بعدی می‌شکند */
-    background-color: #f8f8f8;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 8px;
     /* overflow: auto; */
     /* در صورت نیاز اسکرول ایجاد می‌کند */
 }
