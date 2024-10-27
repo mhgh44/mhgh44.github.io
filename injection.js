@@ -29,7 +29,7 @@ function processFilesInDirectory(directoryPath, outputFilePath) {
 
         // فیلتر کردن فقط فایل‌ها
         const filePaths = files.map(file => path.join(directoryPath, file))
-                                .filter(filePath => fs.statSync(filePath).isFile());
+            .filter(filePath => fs.statSync(filePath).isFile());
 
         // برای هر فایل، محتوای آن را به index.html اضافه کنید
         filePaths.forEach(filePath => appendContentToHTML(filePath, outputFilePath));
@@ -37,6 +37,3 @@ function processFilesInDirectory(directoryPath, outputFilePath) {
 }
 
 // مسیر پوشه و فایل خروجی را مشخص کنید
-const directoryPath = './pages'; // مسیر پوشه را تغییر دهید
-const outputFilePath = './index.html';
-processFilesInDirectory(directoryPath, outputFilePath);

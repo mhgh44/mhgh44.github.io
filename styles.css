@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'LIGHT';
+    /* نام دلخواه برای فونت */
+    src: url('fonts/fonts/PINAR-DS1-FD-LIGHT.TTF') format('truetype');
+    /* مسیر فایل فونت */
+    font-weight: 300
+}
+
+@font-face {
+    font-family: 'MEDIUM';
+    /* نام دلخواه برای فونت */
+    src: url('fonts/PINAR-DS1-FD-MEDIUM.TTF') format('truetype');
+    /* مسیر فایل فونت */
+    font-weight: 400
+}
+
+@font-face {
+    font-family: 'SEMIBOLD';
+    /* نام دلخواه برای فونت */
+    src: url('fonts/PINAR-DS1-FD-SEMIBOLD.TTF') format('truetype');
+    /* مسیر فایل فونت */
+    font-weight: 500
+}
+
+@font-face {
+    font-family: 'BOLD';
+    /* نام دلخواه برای فونت */
+    src: url('fonts/PINAR-DS1-FD-BOLD.TTF') format('truetype');
+    /* مسیر فایل فونت */
+    font-weight: 600
+}
+
+@font-face {
+    font-family: 'EXTRABOLD';
+    /* نام دلخواه برای فونت */
+    src: url('fonts/PINAR-DS1-FD-EXTRABOLD.TTF') format('truetype');
+    /* مسیر فایل فونت */
+    font-weight: 700
+}
+
+@font-face {
+    font-family: 'BLACK';
+    /* نام دلخواه برای فونت */
+    src: url('fonts/PINAR-DS1-FD-BLACK.TTF') format('truetype');
+    /* مسیر فایل فونت */
+    font-weight: 800
+}
+
+body {
+    font-family: 'MEDIUM', ;
+    /* استفاده از فونت سفارشی */
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    font-weight: 700;
+    /* استفاده از وزن بولد برای عنوان */
+}
+
+p {
+    font-weight: 400;
+    white-space: pre-wrap;
+    /* به شما اجازه می‌دهد که متن را به صورت چند خطی نمایش دهید */
+    word-wrap: break-word;
+    /* کلمات را در صورت نیاز به خط بعدی می‌شکند */
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 3px;
+    overflow: auto;
+    /* در صورت نیاز اسکرول ایجاد می‌کند */
+}
